@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vke#dd5!ayna86hzs_1c5$mvt#vk8pbdbjw4*zi&1-)gqyk0aj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.coinvestortrade.com']
 
 
 # Application definition
@@ -145,4 +145,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-WSGI_APPLICATION = 'coinvestor.wsgi.app'
+WSGI_APPLICATION = 'coinvestor.wsgi.application'
