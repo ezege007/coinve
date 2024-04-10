@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'coinvestor.wsgi.application'
+WSGI_APPLICATION = 'coinvestor.wsgi.app'
 
 
 # Database
@@ -148,4 +148,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-WSGI_APPLICATION = 'coinvestor.wsgi.application'
