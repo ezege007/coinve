@@ -7,8 +7,4 @@ name = "pypi"
 django = "*"
 
 [requires]
-<<<<<<< HEAD
 python_version = "3.9"
-=======
-python_version = "3.9"
->>>>>>> 7b46e52fc663b57c1a088da7cae829e79123684a
